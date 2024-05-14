@@ -1,0 +1,108 @@
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #34495e;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.flag-image {
+    width: 200px;
+    height: 133px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: rgb(158, 154, 154);
+    text-align: center;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-button {
+    background-color: rgb(128, 128, 128);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.custom-button:hover {
+    background-color: #2c3e50;
+}
+
+.card {
+    background-color: rgb(158, 154, 154);
+    text-align: center;
+    height: 100%; /* Nastavení výšky karty na 100% vzhledem k rodičovskému kontejneru */
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Rozložení obsahu uvnitř karty vertikálně */
+    height: 100%; /* Nastavení výšky obsahu karty na 100% vzhledem k rodičovské karta */
+}
+
+.card-title {
+    margin-top: 15px; /* Odsazení názvu státu od horního okraje */
+}
+
+.card-text {
+    margin-bottom: 15px; /* Odsazení textu informací o státu od dolního okraje */
+}
+.flag-image {
+    width: 100%; /* Nastavení šířky vlajky na 100% vzhledem k rodičovskému kontejneru */
+    height: auto; /* Automatické zachování poměru stran */
+}
+
+/* CSS pro vytvoření mezery mezi jednotlivými boxy */
+.row {
+    margin-bottom: 20px; /* Odsazení od dolního okraje každého řádku o 20px */
+}
+
+/* CSS pro vytvoření mezery mezi jednotlivými sloupci */
+.odsazeni {
+    margin-bottom: 20px; /* Odsazení od dolního okraje každého sloupce o 20px */
+}
+
+.form-control{
+width: 50%;
+text-align: center;
+align-items: center;
+}
+.form-group {
+    align-items: center; /* Zarovnání obsahu výběrového seznamu na střed */
+}
+
+.form-group {
+    text-align: center; /* Zarovnání obsahu výběrového seznamu na střed */
+}
+
+.form-control {
+    display: inline-block; /* Zobrazení výběrového seznamu jako blokového prvku */
+    text-align: left; /* Zarovnání textu uvnitř výběrového seznamu na levou stranu */
+}
+
+
